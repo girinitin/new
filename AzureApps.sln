@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaHelloAzure", "TaHelloAzure\TaHelloAzure.csproj", "{04F2A0DC-2F2F-46DE-8CBE-84B79AD6EF6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaHelloAzureCore", "TaHelloAzureCore\TaHelloAzureCore.csproj", "{79996F07-A5E9-4547-9409-BED4AA51E9B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaHelloAzureCore", "TaHelloAzureCore\TaHelloAzureCore.csproj", "{79996F07-A5E9-4547-9409-BED4AA51E9B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaAzureDemo", "TaAzureDemo\TaAzureDemo.csproj", "{A7543DCF-DB8E-4503-A84A-E58CDB5917C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{79996F07-A5E9-4547-9409-BED4AA51E9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79996F07-A5E9-4547-9409-BED4AA51E9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79996F07-A5E9-4547-9409-BED4AA51E9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7543DCF-DB8E-4503-A84A-E58CDB5917C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7543DCF-DB8E-4503-A84A-E58CDB5917C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7543DCF-DB8E-4503-A84A-E58CDB5917C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7543DCF-DB8E-4503-A84A-E58CDB5917C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
