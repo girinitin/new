@@ -1,5 +1,8 @@
-﻿@{
+﻿@model string
+@{
     ViewData["Title"] = "Home Page";
 }
 <marquee>Welcome today is @DateTime.Now.ToLongDateString(), This site is published from Islamabad, Pakistan</marquee>
-<h3>Azure Web App Demo</h3>
+
+<h3>@Model</h3>
+
