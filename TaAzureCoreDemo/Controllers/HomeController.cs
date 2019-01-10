@@ -17,6 +17,7 @@ namespace TaAzureCoreDemo.Controllers
         public IActionResult Index()
         {
             var model = configuration["Greeting"];
+
             return View("Index", model);
         }
 
